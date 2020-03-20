@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #181a1b;
+    color: #cfccc5;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    width: 100%;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+h1,
+h2,
+h3,
+h6 {
+    line-height: 1.2
+}
+
+a:link,
+a:hover,
+a:active {
+    color: #3380ff
+}
+
+
+a:visited {
+    color: #ffb233
+}
