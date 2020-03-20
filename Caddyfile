@@ -2,7 +2,7 @@ https://salejandro.me {
     root /var/www/html
 
     errors {
-        404 /home/sebastian/404.html
+        404 404.html
     }
 }
 
@@ -15,7 +15,7 @@ https://i.salejandro.me {
     }
 
     errors {
-        404 /home/sebastian/404.html
+        404 ../html/404.html
     }
 }
 
@@ -23,6 +23,6 @@ https://f.salejandro.me {
     root /var/www/f
 
     errors {
-        404 /home/sebastian/404.html
+        404 ../html404.html
     }
 }
