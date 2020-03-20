@@ -23,6 +23,6 @@ https://f.salejandro.me {
     root /var/www/f
 
     errors {
-        404 ../html404.html
+        404 ../html/404.html
     }
 }
