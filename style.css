@@ -35,15 +35,14 @@ body {
 }
 
 p, 
-h5 {
+h5,
+h6 {
     width: 100%;
     animation: fadein 3s;
     -webkit-animation: fadein 3s;
 }
 
-h1,
 h2,
-h3,
 h5,
 h6 {
     line-height: 1.2
