@@ -10,8 +10,6 @@ body {
     bottom: 50%;
     transform: translate(50%, 50%);
     position: absolute;
-    animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
 }
 
 @keyframes fadein {
@@ -32,6 +30,11 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+h2 {
+    animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
 }
 
 p, 
