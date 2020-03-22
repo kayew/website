@@ -4,8 +4,8 @@ body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
     font-size: 18px;
-    background-color: #181a1b;
-    color: #cfccc5;
+    background-color: #1d1f21;
+    color: #e0e0e0;
     right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
@@ -50,10 +50,10 @@ h6 {
 a:link,
 a:hover,
 a:active {
-    color: #3380ff
+    color: #81a2be;
 }
 
 
 a:visited {
-    color: #ffb233
+    color: #de935f;
 }
