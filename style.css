@@ -37,7 +37,8 @@ h2 {
     -webkit-animation: fadein 1s;
 }
 
-p, 
+p,
+h2, 
 h5,
 h6 {
     width: 100%;
