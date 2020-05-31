@@ -10,6 +10,7 @@ body {
     bottom: 50%;
     transform: translate(50%, 50%);
     position: absolute;
+    max-height: 100%;
 }
 
 @keyframes fadein {
