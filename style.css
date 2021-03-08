@@ -7,30 +7,8 @@ body {
     right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
-    animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
     position: absolute;
     max-height: 100%;
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 p,
